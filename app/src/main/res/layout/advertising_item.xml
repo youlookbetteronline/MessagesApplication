@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/border"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_margin="8dp">
+    
+    <ImageView
+        android:id="@+id/ivIconAdvertising"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        tools:src="@drawable/people_icon"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/tvMessageAdvertising"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="You can see integrated gms video reward"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_gravity="right"/>
+
+    <TextView
+        android:id="@+id/tvDateAdvertising"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:textColor="@android:color/black"
+        tools:text="06.02.2019"/>
+
+
+
+</FrameLayout>

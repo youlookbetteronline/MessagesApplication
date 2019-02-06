@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MessagesApplication</string>
+    <string name="some_message">Some message...</string>
+    <string name="mymessage_text">Hi, my name is Oleg</string>
+</resources>
