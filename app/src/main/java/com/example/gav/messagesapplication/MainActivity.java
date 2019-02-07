@@ -26,7 +26,8 @@ public class MainActivity extends AppCompatActivity implements RewardedVideoAdLi
     private MainAdapter mainAdapter;
     private RewardedVideoAd rewardedVideoAd;
     public static final String ADD_APP_ID = "ca-app-pub-3897204009249997~9104125753";
-    public static final String AD_UNIT_ID = "ca-app-pub-3897204009249997/3309707745";
+    //public static final String AD_UNIT_ID = "ca-app-pub-3897204009249997/3309707745";
+    public static final String AD_UNIT_ID = "ca-app-pub-3940256099942544/5224354917";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
